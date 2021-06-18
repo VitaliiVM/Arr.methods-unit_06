@@ -141,7 +141,15 @@ let z8 = [];
 let z8_2 = [];
 
 const f8 = () => {
-
+    z8 = a8.filter(item => {
+        if (item % 2 === 0) {
+            return true;
+        } else {
+            z8_2.push(item);
+        }
+    });
+    console.log(z8);
+    console.log(z8_2);
 }
 
 // TASK 09
